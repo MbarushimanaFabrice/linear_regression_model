@@ -31,7 +31,7 @@ Requirements: [Flutter SDK](https://docs.flutter.dev/get-started/install), Andro
 
 1. Clone the repository and open a terminal in the Flutter folder:
    ```bash
-   git clone <YOUR-REPO-URL>
+   git clone https://github.com/MbarushimanaFabrice/linear_regression_model.git
    cd linear_regression_model/summative/FlutterApp
    ```
 2. Generate the Android/iOS project files (keeps the existing `lib/main.dart` and `pubspec.yaml`):
