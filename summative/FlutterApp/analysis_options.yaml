@@ -1,0 +1,13 @@
+# Minimal analyzer config (kept simple so the project builds on any recent Flutter version).
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+linter:
+  rules:
+    prefer_const_constructors: true
