@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Jupyter/runtime output
+.jupyter/
+
+# Flutter/Dart generated files
+summative/FlutterApp/.dart_tool/
+summative/FlutterApp/build/
+summative/FlutterApp/.flutter-plugins
+summative/FlutterApp/.flutter-plugins-dependencies
+summative/FlutterApp/.packages
+summative/FlutterApp/flutter_*.png
+summative/FlutterApp/flutter_*.pdf
+
+# Android/iOS local machine files
+summative/FlutterApp/android/local.properties
+summative/FlutterApp/ios/Pods/
+summative/FlutterApp/ios/Flutter/.last_build_id
+summative/FlutterApp/macos/Pods/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+
+# Local test data
+/sample_retrain.csv
