@@ -1,0 +1,22 @@
+[project]
+name = "linear-regression-summative"
+version = "1.0.0"
+description = "Regression models, API and tooling for predicting health-facility staff absenteeism (World Bank SDI data)."
+requires-python = ">=3.12"
+dependencies = [
+    # versions pinned to the ones used to train best_model.pkl (a pickle must be loaded with the same scikit-learn)
+    "numpy==2.5.4",
+    "pandas==3.0.6",
+    "scikit-learn==1.9.1",
+    "joblib==1.6.0",
+    # notebook
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "jupyterlab>=4.2",
+    "ipykernel>=6.29",
+    # API (so the API can also be run from this environment)
+    "fastapi==0.115.6",
+    "uvicorn==0.34.0",
+    "pydantic==2.10.4",
+    "python-multipart==0.0.20",
+]
