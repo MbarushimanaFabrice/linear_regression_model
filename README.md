@@ -23,7 +23,7 @@ Routes: `POST /predict`, `POST /retrain` (CSV upload), `GET /docs`. The free Ren
 
 ## Video demo
 
-**[ADD YOUR YOUTUBE LINK HERE]**
+[Watch the video demo on YouTube](https://youtu.be/MU7nNhV4sFM)
 
 ## Run the mobile app (Android/iOS emulator or phone, not web)
 
