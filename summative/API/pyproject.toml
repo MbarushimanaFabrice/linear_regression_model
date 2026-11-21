@@ -1,0 +1,16 @@
+[project]
+name = "absenteeism-api"
+version = "1.0.0"
+description = "FastAPI service that predicts health-facility staff absenteeism."
+requires-python = ">=3.12"
+dependencies = [
+    # pinned to the versions used to train best_model.pkl
+    "numpy==2.5.4",
+    "pandas==3.0.6",
+    "scikit-learn==1.9.1",
+    "joblib==1.6.0",
+    "fastapi==0.115.6",
+    "uvicorn==0.34.0",
+    "pydantic==2.10.4",
+    "python-multipart==0.0.20",
+]
